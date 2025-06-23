@@ -1,30 +1,31 @@
-# Vite Vanilla Library Template
+# TypeScript Vanilla Library Template
 
-Template for creating a library with a fully customized environment.
+Template for creating a library using TypeScript with a fully customized environment.
 
 ## Features
 
-* ✨ Fully customized [eslint](https://eslint.org/) configuration based on the config by [Antfu](https://github.com/antfu/eslint-config)
+* ✨ Fully customized [eslint](https://eslint.org/) configuration inspired by the configs by [unjs](https://github.com/unjs/eslint-config), [Antfu](https://github.com/antfu/eslint-config) and [sxzz](https://github.com/sxzz/eslint-config)
 * 🧪 Write tests quickly and conveniently with [vitest](https://vitest.dev/)
-* 🤝 Supports [conventional commits](https://www.conventionalcommits.org/)
+* 🤝 Supports [conventional commits](https://www.conventionalcommits.org/) with [gitmoji](https://gitmoji.dev)
 * 💅 Generate beautiful changelogs with [changelogen](https://github.com/unjs/changelogen)
 * ♾️ GitHub CI for your build
 * 📢 Issue templates
 * 📝 Pull request template
 * 🤖 Ready configuration for [renovatebot](https://github.com/apps/renovate) with [renovate-config](https://github.com/hywax/renovate-config)
+* ⚒️ Bundle library code using [tsdown](https://tsdown.dev), a modern bundler written on top of [Rolldown](https://rolldown.rs)
 * 🚀 Library releases with just one command
 
 ## Get started
 
 ### GitHub Template
 
-This is a template repo. Click the green [Use this template](https://github.com/hywax/vite-vanilla-library-template/generate) button to get started.
+This is a template repo. Click the green [Use this template](https://github.com/bjf5201/typescript-lib/generate) button to get started.
 
 ### Git Clone
 
 ```shell
-git clone https://github.com/hywax/vite-vanilla-library-template.git
-cd vite-vanilla-library-template
+git clone https://github.com/bjf5201/typescript-lib.git
+cd typescript-lib
 pnpm install
 ```
 
@@ -35,19 +36,11 @@ The template contains the following scripts:
 * `dev` - Start the development server
 * `build` - Build for production
 * `release` - Generate changelog and npm publish
-* `lint` - Checks your code for any linting errors
+* `lint` - Checks for both linting errors and formatting errors
+* `typecheck` - Ensure types compile and export correctly
 * `test` - Run all tests
 * `test:watch` - Run all tests with watch mode
-* `test:coverage` - Run all tests with code coverage report
 * `prepare` - Script for setting up husky hooks
-
-## Used by
-
-* [vitepress-yandex-metrika](https://github.com/hywax/vitepress-yandex-metrika)
-* [gotify-client](https://github.com/hywax/gotify-client)
-* [lxc-idmapper](https://github.com/hywax/lxc-idmapper)
-
-If you are using this template, feel free to open a PR to add your project to the list.
 
 ## License
 
